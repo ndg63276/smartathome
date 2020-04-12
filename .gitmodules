@@ -1,0 +1,6 @@
+[submodule "hive"]
+	path = hive
+	url = https://github.com/ndg63276/hive.git
+[submodule "octopus"]
+	path = octopus
+	url = https://github.com/ndg63276/octopus.git
