@@ -1,0 +1,35 @@
+<html>
+<head profile="http://www.w3.org/2005/10/profile">
+<link rel="icon" type="image/png" href="short_logo_trans.png">
+<title>SmartAtHome.co.uk - Cookies</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+<script src="general_functions.js"></script>
+<script>
+window.onload = function() {
+        testFirstCookie();
+}
+</script>
+</head><body>
+<center><img src="../long_logo.png"></center><br /><br />
+<h2>Who is SmartAtHome.co.uk?</h2>
+SmartAtHome.co.uk is just a hobby site ran by me, Mark. I'm nice, I promise. You can email me at mark<code>@</code>smartathome.co.uk.
+<h2>Is your website secure?</h2>
+Yes, the whole site is served over https, you should see a little padlock symbol in your address bar.
+<h2>What cookies do you store on my computer?</h2>
+<ul>
+<li>cookieCompliancyAccepted - this stores if you have clicked 'Understood' on the cookie warning.</li>
+<li>token - if you log in to Hive via this website, this stores your auth token to communicate with Hive. It does not include your password.</li>
+<li>meteo_location_id - this is the ID of the nearest weather station to your address.</li>
+<li>account_no - this stores your Octopus account number.</li>
+<li>apikey - this stores your Octopus API key.</li>
+<li>postcode - this stores your postcode.</li>
+<li>gsp - this stores your grid supply point, which depends on your region.</li>
+</ul>
+<div id="myCookieConsent">
+<a id="cookieButton" onClick="acceptCookies()">Understood</a>
+<div>This website is using cookies. <a href="../cookies.html">More details</a></div>
+</div>
+
+</body>
+</html>
