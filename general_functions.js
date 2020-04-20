@@ -50,9 +50,9 @@ function parseDateParam(param) {
 	} else if (param == 'future_prices') {
 		if (to_return.getHours() >= 16) {
 			to_return.setDate(to_return.getDate()+1);
-			to_return.setUTCHours(23, 0, 0, 0);
+			to_return.setHours(23, 0, 0, 0);
 		} else {
-			to_return.setUTCHours(23, 0, 0, 0);
+			to_return.setHours(23, 0, 0, 0);
 		}
 	} else if (param.startsWith("20")) {
 		var pattern = /([0-9]{4})-?([0-9]{2})-?([0-9]{2})T?([0-9]{2})?:?([0-9]{2})?:?([0-9]{2})?.*/;
