@@ -62,3 +62,8 @@
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
