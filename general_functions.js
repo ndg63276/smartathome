@@ -98,3 +98,11 @@ function parseDateParam(param) {
 	}
 	return to_return;
 }
+
+function capitalise(str) {
+	return str.charAt(0).toUpperCase() + str.slice(1)
+}
+
+function hardCapitalise(str) {
+	return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase()
+}
