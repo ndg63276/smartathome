@@ -1,0 +1,20 @@
+.table_0 {
+	width:0%
+}
+.table_20 {
+	min-width:20%
+}
+.table_50 {
+	width:50%
+}
+.table_90 {
+	width:100%
+}
+.refresh-btn {
+	display: none;
+	visibility: hidden;
+}
+.small-input {
+	font-size: 10px;
+}
+

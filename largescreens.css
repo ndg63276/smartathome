@@ -1,0 +1,21 @@
+.btn {
+	font-size:20px;
+	height:100px;
+	width:200px
+}
+
+.table_0 {
+	width:0%
+}
+.table_20 {
+	min-width:20%
+}
+.table_50 {
+	width:40%
+}
+.table_90 {
+	width:90%
+}
+.small-input {
+	font-size: 20px;
+}
