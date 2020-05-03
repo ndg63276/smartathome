@@ -68,6 +68,10 @@ img {
 	height: auto;
 }
 
+input {
+	text-align: center !important;
+}
+
 .ui-page {
 	background:#ffffff;
 }
@@ -77,7 +81,36 @@ img {
 	visibility: hidden;
 }
 
-.in-line .ui-input-text {
+.in-line {
 	display:inline-block;
 	width:50px;
+}
+
+.in-line-div {
+	display:inline-block;
+}
+
+.date-input {
+	display:inline-block;
+	width:500px;
+	max-width:100%;
+}
+
+.cost-table-row {
+	max-height:50px;
+	vertical-align: top;
+	padding:0px;
+}
+
+.cost-table-dropdown {
+	max-height:50px;
+	vertical-align: top;
+	padding:0px;
+	margin:0px;
+}
+
+.chart-container {
+	position: relative;
+	width:100vw;
+	max-height:100vh;
 }
