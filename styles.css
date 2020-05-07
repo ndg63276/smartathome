@@ -114,3 +114,8 @@ input {
 	width:100vw;
 	max-height:100vh;
 }
+
+.l1 {
+	width: 130px;
+	display: inline-block;
+}
