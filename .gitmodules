@@ -7,3 +7,6 @@
 [submodule "sonoff"]
 	path = sonoff
 	url = https://github.com/ndg63276/sonoff.git
+[submodule "smartlife"]
+	path = smartlife
+	url = https://github.com/ndg63276/smartlife.git
