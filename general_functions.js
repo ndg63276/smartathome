@@ -106,3 +106,43 @@ function capitalise(str) {
 function hardCapitalise(str) {
 	return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase()
 }
+
+function get_json(jsonfile) {
+	var to_return = {};
+	$.ajax({
+		url: jsonfile,
+		async: false,
+		dataType: "json",
+		success: function (json) {
+			to_return = json;
+		}
+	});
+	return to_return;
+}
+
+function get_text(file) {
+	var to_return = {};
+	$.ajax({
+		url: file,
+		async: false,
+		success: function (text) {
+			to_return = text.trim();
+		}
+	});
+	return to_return;
+}
+
+String.prototype.obfuscate = function () {
+	var bytes = [];
+	for (var i = 0; i < this.length; i++) {
+		bytes.push(this.charCodeAt(i).toString(16));
+	}
+	return bytes.join('$');
+}
+
+String.prototype.deobfuscate = function () {
+	var arr = this.split('$');
+	return arr.map(function(c) {
+		return String.fromCharCode(parseInt(c, 16))
+	}).reduce(function(a, b) {return a  + b})
+}
