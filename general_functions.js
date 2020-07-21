@@ -173,7 +173,11 @@ $.mobile.changeGlobalTheme = function(theme) {
 function switchTheme() {
 	if (document.getElementById("page").classList.contains('ui-body-b')) {
 		$.mobile.changeGlobalTheme("a");
+		document.getElementById("logo").classList.remove("hidden")
+		document.getElementById("logo_dark").classList.add("hidden")
 	} else {
 		$.mobile.changeGlobalTheme("b");
+		document.getElementById("logo").classList.add("hidden")
+		document.getElementById("logo_dark").classList.remove("hidden")
 	}
 }
