@@ -10,3 +10,6 @@
 [submodule "smartlife"]
 	path = smartlife
 	url = https://github.com/ndg63276/smartlife.git
+[submodule "hue"]
+	path = hue
+	url = https://github.com/ndg63276/hue.git
