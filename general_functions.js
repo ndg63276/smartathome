@@ -100,11 +100,19 @@ function parseDateParam(param) {
 }
 
 function capitalise(str) {
-	return str.charAt(0).toUpperCase() + str.slice(1)
+	if (typeof str !== 'undefined' && str !== null) {
+		return str.charAt(0).toUpperCase() + str.slice(1)
+	} else {
+		return str
+	}
 }
 
 function hardCapitalise(str) {
-	return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase()
+	if (typeof str !== 'undefined' && str !== null) {
+		return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase()
+	} else {
+		return str
+	}
 }
 
 function get_json(jsonfile) {
