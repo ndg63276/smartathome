@@ -4,6 +4,14 @@
 .table_20 {
 	min-width:20%
 }
+.oct_table_reqd {
+	width:33%;
+	vertical-align:middle !important;
+}
+.oct_table_opt {
+	visibility: hidden !important;
+	display: none !important;
+}
 .table_50 {
 	width:50%
 }

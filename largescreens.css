@@ -10,6 +10,14 @@
 .table_20 {
 	min-width:20%
 }
+.oct_table_reqd {
+	width:20%;
+	vertical-align:middle !important;
+}
+.oct_table_opt {
+	width:20%;
+	vertical-align:middle !important;
+}
 .table_50 {
 	width:40%
 }
