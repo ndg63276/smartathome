@@ -27,3 +27,16 @@
 .small-input {
 	font-size: 20px;
 }
+
+.column {
+	flex: 15%;
+	padding: 2%;
+	max-width: 15%;
+}
+
+.column2 {
+	flex: 45%;
+	padding: 2%;
+	max-width: 45%;
+}
+

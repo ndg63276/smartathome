@@ -131,3 +131,15 @@ input {
 .align-bottom {
 	vertical-align: bottom;
 }
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.plaintext {
+	font-family: 'Trebuchet MS', sans-serif;
+	text-align: center;
+}

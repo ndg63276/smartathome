@@ -25,6 +25,8 @@
 <meta http-equiv="Expires" content="0" />
 <link rel="icon" type="image/png" href="short_logo_trans.png">
 <link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" media="(max-width:800px)" href="smallscreens.css">
+<link rel="stylesheet" media="(min-width:801px)" href="largescreens.css">
 <title>SmartAtHome.co.uk</title>
 <script src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
 <script src="general_functions.js"></script>
@@ -36,19 +38,40 @@ window.onload = function() {
 </head>
 <body>
 <center><img src="long_logo.png" alt="smartathome.co.uk logo"><br /><br /></center>
-  <p>Compare Octopus Agile & Go Tariffs to other tariffs suitable for electric vehicles <a href='octopus/index.html' data-ajax='false'>here.</a></p>
-  <p>Control your Hive, back up your schedule and view usage <a href='hive/index.html' data-ajax='false'>here.</a></p>
-  <p>Control your Hue lights <a href='hue/index.html' data-ajax='false'>here.</a></p>
-  <p>Control your Sonoff / eWeLink devices <a href='sonoff/index.html' data-ajax='false'>here.</a></p>
-  <p>Control your Smart Life / Tuya devices <a href='smartlife/index.html' data-ajax='false'>here.</a></p>
-  <p>Play YouTube audio and video on your Alexa device <a href='https://www.patreon.com/alexayoutube'>here.</a></p>
-  <p>Control your Sky HD or Sky Q box through your Alexa device <a href='https://github.com/ndg63276/alexa-sky-hd'>here.</a>
- <b>Not got Sky?</b> Join <a href='http://rt1-t.notifications.contact.sky/r/?id=h61d67dc,af4652c,af46534'>here</a> and get a £75 prepaid Mastercard!</p>
+
+<div class="row">
+<div class="column"><a href="octopus/index.html" data-ajax="false"><img src="images/OctopusLogo.png"></a><br /><br /><p class="plaintext">Compare Octopus Agile & Go Tariffs to other tariffs.</p></div>
+<div class="column"><a href="hive/index.html" data-ajax="false"><img src="images/HiveLogo.png"></a><br /><br /><p class="plaintext">Control your Hive, back up your schedule and view usage.</p></div>
+<div class="column"><a href="hue/index.html" data-ajax="false"><img src="images/HueLogo.png"></a><br /><br /><p class="plaintext">Control your Hue lights.</p></div>
+<div class="column"><a href="sonoff/index.html" data-ajax="false"><img src="images/SonoffLogo.png"></a><br /><br /><p class="plaintext">Control your Sonoff / eWeLink devices.</p></div>
+<div class="column"><a href="smartlife/index.html" data-ajax="false"><img src="images/TuyaLogo.jpg"></a><br /><br /><p class="plaintext">Control your Smart Life / Tuya / TCP / many other devices.</p></div>
+</div>
+<br /><br />
+<div class="row">
+<div class="column2">
+<a href="https://www.patreon.com/alexayoutube"><img src="images/AlexaYoutubeLogo.png"></a>
+<p class="plaintext">Play YouTube audio and video on your Alexa device.</p>
+</div>
+<div class="column2">
+<a href="https://github.com/ndg63276/alexa-sky-hd"><img src="images/AlexaSkyLogo.png"></a>
+<p class="plaintext">Control your Sky HD or Sky Q box through your Alexa device.
+<b>Not got Sky?</b> Join <a href="http://rt1-t.notifications.contact.sky/r/?id=h61d67dc,af4652c,af46534">here</a> and get a £75 prepaid Mastercard!</p>
+</div>
+</div>
 
 <br /><br /><center><h3>
-Need a credit card? Join <a href='https://welcome.aquacard.co.uk/refer1?UID=RAF182785247'>Aqua</a> and get £25 cashback!
+Need a credit card? Join <a href="https://welcome.aquacard.co.uk/refer1?UID=RAF182785247">Aqua</a> and get £25 cashback!
 </center>
 
+<br /><br />
+<small>
+Octopus and the Octopus logo are registered trademarks of Octopus Energy Limited.<br />
+Hive and the Hive logo are registered trademarks of Centrica Hive Limited.<br />
+Philips and the Philips logo are registered trademarks of Koninklijke Philips N.V.<br />
+Hue and the Hue logo are registered trademarks of Signify Holding B.V.<br />
+Sonoff and the Sonoff logo are registered trademarks of Shenzhen Sonoff Technologies Co., Limited.<br />
+Tuya, the Tuya logo, and the Smart Life logo are registered trademarks of Tuya Global Inc.<br />
+Alexa and the Alexa logo are registered trademarks of Amazon Technologies, Inc.<br />
 <div id="myCookieConsent">
 <a id="cookieButton" onClick="acceptCookies()">Understood</a>
 <div>This website is using cookies. <a href="cookies.html">More details</a></div>
