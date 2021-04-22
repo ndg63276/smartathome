@@ -8,11 +8,17 @@ else: # python2
 	from BaseHTTPServer import HTTPServer
 	from CGIHTTPServer import CGIHTTPRequestHandler
 import cgitb; cgitb.enable()  ## This line enables CGI error reporting
- 
+
+port = int(sys.argv[1])
+
 server = HTTPServer
 handler = CGIHTTPRequestHandler
-server_address = ("", 8000)
+server_address = ("", port)
 handler.cgi_directories = ["/cgi-bin"]
- 
 httpd = server(server_address, handler)
+
+if port == 4443:
+	import ssl
+	httpd.socket = ssl.wrap_socket(httpd.socket, keyfile='localhost.pem', certfile="localhost.pem", server_side=True)
+
 httpd.serve_forever()
