@@ -38,3 +38,14 @@
 	max-width: 90%;
 }
 
+.column3 {
+	flex: 45%;
+	padding: 2%;
+	max-width: 45%;
+}
+
+.column4 {
+	display: none;
+	visibility: hidden;
+}
+

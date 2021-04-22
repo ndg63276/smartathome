@@ -35,8 +35,19 @@
 }
 
 .column2 {
-	flex: 45%;
+	flex: 35%;
 	padding: 2%;
-	max-width: 45%;
+	max-width: 35%;
+}
+
+.column3 {
+	display: none;
+	visibility: hidden;
+}
+
+.column4 {
+	flex: 15%;
+	padding: 2%;
+	max-width: 15%;
 }
 
