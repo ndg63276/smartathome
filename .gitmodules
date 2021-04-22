@@ -13,3 +13,6 @@
 [submodule "hue"]
 	path = hue
 	url = https://github.com/ndg63276/hue.git
+[submodule "kasa"]
+	path = kasa
+	url = https://github.com/ndg63276/kasa.git
