@@ -143,3 +143,16 @@ input {
 	font-family: 'Trebuchet MS', sans-serif;
 	text-align: center;
 }
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.fixed-table {
+	table-layout:fixed;
+}
+

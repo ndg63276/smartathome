@@ -49,3 +49,10 @@
 	visibility: hidden;
 }
 
+.leftcolumn {
+        width: 50%;
+}
+
+.centercolumn {
+        width: 0%;
+}

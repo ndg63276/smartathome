@@ -51,3 +51,10 @@
 	max-width: 15%;
 }
 
+.leftcolumn {
+        width: 45%;
+}
+
+.centercolumn {
+        width: 10%;
+}
