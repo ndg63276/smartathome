@@ -52,9 +52,9 @@
 }
 
 .leftcolumn {
-        width: 45%;
+        width: 50%;
 }
 
-.centercolumn {
-        width: 10%;
+.leftpadding {
+	padding: 0px 0px 0px 25px;
 }
