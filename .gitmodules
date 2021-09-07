@@ -16,3 +16,6 @@
 [submodule "kasa"]
 	path = kasa
 	url = https://github.com/ndg63276/kasa.git
+[submodule "epc"]
+	path = epc
+	url = https://github.com/ndg63276/epc.git
