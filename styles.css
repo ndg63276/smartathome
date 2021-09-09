@@ -156,3 +156,10 @@ input {
 	table-layout:fixed;
 }
 
+.overlay {
+	position: absolute;
+	top: 5px;
+	left: 1vw;
+	height: 8vw;
+	z-index: 1;
+}
