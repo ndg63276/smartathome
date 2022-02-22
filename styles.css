@@ -163,3 +163,7 @@ input {
 	height: 8vw;
 	z-index: 1;
 }
+
+.white {
+	background-color: #ffffff !important;
+}
