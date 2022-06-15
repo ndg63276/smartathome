@@ -19,3 +19,6 @@
 [submodule "epc"]
 	path = epc
 	url = https://github.com/ndg63276/epc.git
+[submodule "ring"]
+	path = ring
+	url = https://github.com/ndg63276/ring.git
