@@ -14,7 +14,7 @@ port = int(sys.argv[1])
 server = HTTPServer
 handler = CGIHTTPRequestHandler
 server_address = ("", port)
-handler.cgi_directories = ["/cgi-bin"]
+handler.cgi_directories = ["/cgi-bin", "/autocollect/cgi-bin"]
 httpd = server(server_address, handler)
 
 if port == 4443:
